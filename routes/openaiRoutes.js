@@ -15,6 +15,5 @@ router.post("/paragraph", paragraphController);
 router.post("/chatbot", chatbotController);
 router.post("/js-converter", jsconverterController);
 router.post("/scifi-image", scifiImageController);
-router.get("/hello",(req,res) => { res.send("hello")})
 
 module.exports = router;
